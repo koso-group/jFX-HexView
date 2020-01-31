@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+
+<fx:root fx:id="table_hex" editable="true" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="720.0" tableMenuButtonVisible="true" type="javafx.scene.control.TableView" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+	<columns>
+		<TableColumn fx:id="column_address" editable="false" maxWidth="5000.0" minWidth="10.0" prefWidth="75.0" resizable="false" sortable="false" text="ADDRESS" />
+		<TableColumn fx:id="column_b00" maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" resizable="false" sortable="false" text="00" />
+		<TableColumn fx:id="column_b01" maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" resizable="false" sortable="false" text="01" />
+		<TableColumn fx:id="column_b02" maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" resizable="false" sortable="false" text="02" />
+		<TableColumn fx:id="column_b03" maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" resizable="false" sortable="false" text="03" />
+		<TableColumn fx:id="column_b04" maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" resizable="false" sortable="false" text="04" />
+		<TableColumn fx:id="column_b05" maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" resizable="false" sortable="false" text="05" />
+		<TableColumn fx:id="column_b06" maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" resizable="false" sortable="false" text="06" />
+		<TableColumn fx:id="column_b07" maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" resizable="false" sortable="false" text="07" />
+		<TableColumn fx:id="column_b08" maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" resizable="false" sortable="false" text="08" />
+		<TableColumn fx:id="column_b09" maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" resizable="false" sortable="false" text="09" />
+		<TableColumn fx:id="column_b0A" maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" resizable="false" sortable="false" text="0A" />
+		<TableColumn fx:id="column_b0B" maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" resizable="false" sortable="false" text="0B" />
+		<TableColumn fx:id="column_b0C" maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" resizable="false" sortable="false" text="0C" />
+		<TableColumn fx:id="column_b0D" maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" resizable="false" sortable="false" text="0D" />
+		<TableColumn fx:id="column_b0E" maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" resizable="false" sortable="false" text="0E" />
+		<TableColumn fx:id="column_b0F" maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" resizable="false" sortable="false" text="0F" />
+		<TableColumn fx:id="column_text" maxWidth="5000.0" minWidth="10.0" prefWidth="200.0" resizable="false" sortable="false" text="TEXT" visible="false" />
+	</columns>
+</fx:root>
