@@ -127,7 +127,7 @@ public class HexView extends TableView
             column.setStyle("-fx-alignment: CENTER; -fx-font-family: Consolas;");
         });
 
-        this.table_hex.getColumns().get(0).setStyle("-fx-alignment: CENTER-RIGHT;");
+        this.table_hex.getColumns().get(0).setStyle("-fx-alignment: CENTER-RIGHT; -fx-font-family: Consolas;");
 
         this.observableListWrapper = (ObservableListWrapper<DataRow16>) this.table_hex.itemsProperty().get();
     }
